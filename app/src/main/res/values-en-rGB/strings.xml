@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Data Form</string>
+    <string name="aceptar">OK</string>
+    <string name="apellidos">Last Name</string>
+    <string name="nombre">First Name</string>
+    <string name="reset">RESET</string>
+    <string name="introduce_nombre">Enter youy First Name</string>
+    <string name="introduce_apellidos">Enter your Last Name</string>
+    <string name="hombre">Male</string>
+    <string name="mujer">Female</string>
+    <string name="edad">Age</string>
+    <string name="estado_otro">Other</string>
+    <string name="estado_civil">Marital Status</string>
+    <string name="estado_casado">Married</string>
+    <string name="estado_soltero">Single</string>
+    <string name="estado_viudo">Widowed</string>
+    <string name="elegir_estado">Choose one...</string>
+    <string name="campo_texto">Press OK to generate...</string>
+    <string name="hijos">Children</string>
+</resources>

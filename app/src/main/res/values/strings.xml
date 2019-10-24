@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="nombre">Nombre</string>
+    <string name="introduce_nombre">Escriba aquí su nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="introduce_apellidos">Escriba aquí su apellido</string>
+    <string name="edad">Edad</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="hijos">Hijos</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="estado_casado">Casado/a</string>
+    <string name="estado_viudo">Soltero/a</string>
+    <string name="estado_soltero">Viudo/a</string>
+    <string name="estado_otro">Otro</string>
+    <string name="campo_texto">Pulse Aceptar para generar...</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="elegir_estado">Elegir una...</string>
+    <string name="reset">Resetear</string>
+
+
+    <string-array name ="arrayEstados">
+        <item>@string/elegir_estado</item>
+        <item>@string/estado_casado</item>
+        <item>@string/estado_soltero</item>
+        <item>@string/estado_viudo</item>
+        <item>@string/estado_otro</item>
+    </string-array>
+
+
+</resources>
