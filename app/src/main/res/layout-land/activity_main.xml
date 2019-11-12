@@ -9,6 +9,7 @@
 
     <TextView
         android:id="@+id/texto_nombre"
+        style="@style/TextoNegrita"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
@@ -18,8 +19,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="9dp"
         android:text="@string/nombre"
-        android:textColor="#000000"
-        android:textSize="24sp" />
+        />
 
     <EditText
         android:id="@+id/campo_nombre"
@@ -39,6 +39,7 @@
 
     <TextView
         android:id="@+id/texto_apellidos"
+        style="@style/TextoNegrita"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_below="@+id/texto_nombre"
@@ -48,8 +49,7 @@
         android:layout_marginLeft="17dp"
         android:layout_marginTop="14dp"
         android:text="@string/apellidos"
-        android:textSize="24sp"
-        android:textColor="#000000" />
+         />
 
 
     <EditText
@@ -71,6 +71,7 @@
 
     <TextView
         android:id="@+id/texto_edad"
+        style="@style/TextoNegrita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/texto_apellidos"
@@ -80,8 +81,7 @@
         android:layout_marginLeft="62dp"
         android:layout_marginTop="13dp"
         android:text="@string/edad"
-        android:textSize="24sp"
-        android:textColor="#000000" />
+         />
 
 
     <EditText
@@ -113,21 +113,24 @@
 
         <RadioButton
             android:id="@+id/radioButton1"
+            style="@style/TextoNegrita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/hombre"
-            android:textSize="24sp" />
+            />
 
         <RadioButton
             android:id="@+id/radioButton2"
+            style="@style/TextoNegrita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mujer"
-            android:textSize="24sp" />
+            />
     </RadioGroup>
 
     <Switch
         android:id="@+id/switch1"
+        style="@style/TextoNegrita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/radio_grupo"
@@ -136,8 +139,7 @@
         android:layout_marginStart="256dp"
         android:layout_marginLeft="256dp"
         android:layout_marginTop="13dp"
-        android:text="@string/hijos"
-        android:textSize="24sp" />
+         />
 
 
     <Spinner
@@ -154,6 +156,7 @@
 
     <TextView
         android:id="@+id/text_estado_civil"
+        style="@style/TextoNegrita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/radio_grupo"
@@ -168,8 +171,7 @@
 
     <Button
         android:id="@+id/btn_aceptar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/MiEstilo"
         android:layout_below="@+id/area_de_texto"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
@@ -180,8 +182,7 @@
 
     <Button
         android:id="@+id/btn_reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/MiEstilo.textoDestacado"
         android:layout_below="@+id/area_de_texto"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"

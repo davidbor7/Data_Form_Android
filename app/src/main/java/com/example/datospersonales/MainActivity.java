@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -17,14 +18,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-//hola
-    public MainActivity() {
-    }
+    private Typeface fuente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        String fuentes = "fuentes/CaviarDreams.ttf";
 
         final EditText texto_nombre = (EditText) findViewById(R.id.campo_nombre);
         final EditText texto_apellidos = (EditText) findViewById(R.id.campo_apellidos);
@@ -44,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
         final Spinner cmbOpciones = (Spinner) findViewById(R.id.spinner_estado_civil);
 
         cmbOpciones.setAdapter(adaptador);
+
+        this.fuente = Typeface.createFromAsset(getAssets(), fuentes);
+        area_de_texto.setTypeface(fuente);
 
         //ANONIMA BOTON 1
 
